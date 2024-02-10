@@ -1,0 +1,135 @@
+/* Estilos generales */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: darkgoldenrod;
+  font-size: 16px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  background-color: darkgoldenrod;
+  color: #111;
+  padding: 20px;
+}
+
+/* Estilos para el título */
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  color: darkgoldenrod;
+}
+
+/* Logo del gimnasio */
+#gym-logo img {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Controles */
+#controls {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Lista de miembros */
+#members-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.member-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.member-item:last-child {
+  margin-bottom: 0;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.controls input[type="text"],
+.controls input[type="password"] {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.controls button {
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: darkgoldenrod;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #b8860b;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container .form-group {
+  margin-bottom: 20px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}

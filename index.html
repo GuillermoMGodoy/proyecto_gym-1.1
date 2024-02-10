@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Miembros de Gimnasio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <div class="login-container">
+    <h2>Bienvenido</h2>
+    <form id="login-form">
+        <div class="form-group">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Ingresar</button>
+    </form>
+</div>
+
+    <!-- Aquí puedes agregar tu código HTML existente -->
+    <div id="gym-logo">
+        <img src="./img/Logo Blanco.png" alt="Logo del gimnasio">
+    </div>
+    <h1>Gestión de Miembros de Gimnasio</h1>
+    
+    <div id="member-counter">Total de Miembros: <span id="total-members">0</span></div>
+    
+    <div id="search-box">
+        <input type="text" id="search-input" placeholder="Buscar miembro por nombre">
+    </div>
+
+    <div id="controls">
+        <input type="text" id="new-member-name" placeholder="Nombre del nuevo miembro">
+        <button id="add-member-btn">Agregar Miembro</button>
+    </div>
+
+    <div id="members-list">
+        <ul id="members"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
